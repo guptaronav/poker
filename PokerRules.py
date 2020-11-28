@@ -43,6 +43,7 @@ def Is_Royal_Flush(Cards):
   Cards.sort(reverse=1)
   return Cards[0] in Aces and Is_Straight_Flush(Cards)
 
+# Get max number of cards of a Kind
 def OAK(Cards):
   Card_Value=[]
   for i in Cards:
